@@ -45,6 +45,10 @@ module.exports = manifest = {
             "js": ["content/reddit/script/script.js"]
         },
         {
+            "matches": ["https://*.porntrex.com/*"],
+            "js": ["content/porntrex/script/script.js"]
+        },
+        {
             "matches": [
                 "http://*/*",
                 "https://*/*"
